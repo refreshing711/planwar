@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#box{
+	width: 320px;
+	height: 568px;
+	margin: 10px auto;
+	border: 1px solid #000000;
+	position: relative;
+}
+#box *{
+	position: absolute;
+}
+
+#bg1{
+	width: 320px;
+	height: 568px;
+	background: url(images/开始背景320_568.png);
+}
+#btn1{
+	border:1px solid gray;
+	border-radius: 10px;
+	width: 100px;
+	height:40px;
+	background:#CCCCCC;
+	left: 110px;
+	top: 300px;
+	outline: none;
+	cursor: pointer;
+}
+#bg2{
+	width: 320px;
+	height: 568px;
+	overflow: hidden;
+}
+#sky{
+	width: 320px;
+	height: 1136px;
+	background: url(images/背景320_568.png);
+	top: -568px;
+}
+#myPlane{
+	width: 66px;
+	height: 80px;
+	top: 488px;
+	left: 127px;
+}
+.bullet{
+	width: 6px;
+	height: 14px;
+}
+.HP{
+	border: 1px solid gray;
+	height: 5px;
+	top: -10px;
+}
+.HP>div{
+	height: 5px;
+	background: red;
+}
